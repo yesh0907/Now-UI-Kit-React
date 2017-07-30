@@ -19,7 +19,11 @@
     "test:watch": "karma start --autoWatch=true --singleRun=false"
   },
   "repository": "https://github.com/yesh0907/Now-UI-Kit-React",
-  "keywords": ["react", "now ui kit", "react ui kit"],
+  "keywords": [
+    "react",
+    "now ui kit",
+    "react ui kit"
+  ],
   "author": "Yesh Chandiramani",
   "devDependencies": {
     "babel-core": "^6.0.0",
@@ -30,6 +34,8 @@
     "babel-preset-react": "^6.0.15",
     "babel-preset-stage-0": "^6.5.0",
     "bootstrap": "^4.0.0-alpha.6",
+    "bootstrap-datepicker": "^1.7.1",
+    "bootstrap-switch": "^3.3.4",
     "bower-webpack-plugin": "^0.1.9",
     "chai": "^3.2.0",
     "copyfiles": "^1.0.0",
@@ -51,6 +57,7 @@
     "minimist": "^1.2.0",
     "mocha": "^3.0.0",
     "node-sass": "^4.5.3",
+    "nouislider": "^10.1.0",
     "null-loader": "^0.1.1",
     "open": "0.0.5",
     "phantomjs-prebuilt": "^2.0.0",
