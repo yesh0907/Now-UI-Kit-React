@@ -18,7 +18,7 @@
 */
 
 import $ from 'jquery';
-const noUiSlider = require('./plugins/nouislider.min.js');
+import noUiSlider from 'nouislider';
 var transparent = true;
 
 var transparentDemo = true;
