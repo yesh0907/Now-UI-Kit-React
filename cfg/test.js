@@ -53,12 +53,6 @@ module.exports = {
   plugins: [
     new BowerWebpackPlugin({
       searchResolveModulesDirectories: false
-    }),
-    new webpack.ProvidePlugin(
-      {
-        $: "jquery", jQuery: "jquery", "window.jQuery": "jquery",
-        Tether: "tether", tether: "tether"
-      }
-    )
+    })
   ]
 };
