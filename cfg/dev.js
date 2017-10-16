@@ -30,7 +30,8 @@ let config = Object.assign({}, baseConfig, {
 config.plugins.push(new webpack.ProvidePlugin(
   {
     $: "jquery", jQuery: "jquery", "window.jQuery": "jquery",
-    Tether: "tether", tether: "tether"
+    Tether: "tether", tether: "tether",
+    Popper: "popper.js"
   }
 ));
 
