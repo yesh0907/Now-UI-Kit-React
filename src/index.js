@@ -1,6 +1,7 @@
 import 'core-js/fn/object/assign';
 import React from 'react';
 import ReactDOM from 'react-dom';
+require('popper.js/dist/umd/popper');
 require('bootstrap');
 require('bootstrap-switch');
 require('nouislider');
